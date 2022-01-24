@@ -11,8 +11,8 @@ class Ball {
 	}
 }
 
-const screenWidth = window.screen.availWidth;
-const screenHeight = window.screen.availHeight;
+const screenWidth = document.documentElement.clientWidth;
+const screenHeight = document.documentElement.clientHeight;
 const ballSize = 40;
 
 let balls = [
