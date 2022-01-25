@@ -14,5 +14,9 @@ function draw() {
 }
 
 function mousePressed() {
-	background(random(255), random(255), random(255))
+	r = random(255)
+	g = random(255)
+	b = random(255)
+	background(r, g, b)
+	fill(255 - r, 255 - g, 255 - b)
 }
